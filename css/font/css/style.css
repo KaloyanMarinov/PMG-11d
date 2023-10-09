@@ -1,0 +1,40 @@
+/*
+  html - 16px default
+  px,
+  %,
+  inc,
+  em - Взема винаги стойността толкова пъти колкото е на родител
+  rem - Взема винаги стойността толкова пъти колкото е на HTML тага
+
+  https://transfonter.org/
+*/
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  font-family: 'Dosis';
+  font-weight: 600;
+  font-style: normal;
+}
+
+.fontSize {
+  font-size: 40px;
+}
+
+.fontWight {
+  font-weight: 300;
+}
+
+.fontStyle {
+  font-style: italic;
+}
+
+.fontVariant {
+  font-variant: small-caps;
+}
+
+.fontFamily {
+  font-family: Arial,  sans-serif;
+}

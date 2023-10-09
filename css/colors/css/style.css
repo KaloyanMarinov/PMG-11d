@@ -1,0 +1,46 @@
+.myTitle {
+  color: aqua;
+  background-color: beige;
+}
+
+/* span {
+  color: green;
+} */
+
+.classTitle span {
+  color: white;
+}
+
+.classTitle > span {
+  color: green;
+}
+
+.myDiv p {
+  color: red;
+}
+
+.myDiv h1 {
+  color: red;
+}
+
+.myDiv * {
+  font-size: 30px;
+  color: red
+}
+
+.myDiv + .myDiv2 {
+  background-color: red;
+}
+
+.colorRGB {
+  color: rgb(100, 255, 255);
+}
+
+.colorRGBA {
+  color: rgba(100, 255, 255, 0.5);
+  background-color: #0E1F42;
+}
+
+.colorHEX {
+  color: #0E1F42;
+}

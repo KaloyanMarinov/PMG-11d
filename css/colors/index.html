@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Colors</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <style>
+      /* selector {
+        property: value;
+        property: value;
+        property: value;
+        property: value;
+      } */
+
+      /* * {
+        margin: 0;
+      } */
+
+      /* h1 {
+        color: white;
+        background-color: black;
+      } */
+
+      #idTitle {
+        color: blue;
+        background-color: blueviolet;
+      }
+
+      .classTitle {
+        color: navajowhite;
+        background-color: aquamarine;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 id="idTitle" style="color: red; background-color: blue;">Title</h1>
+    <h1>Title</h1>
+    <h1 id="idTitle">Title</h1>  
+    <h1 class="classTitle">Title</h1>  
+    <h1 id="idTitle" class="myTitle classTitle">Title</h1>  
+    <h1 class="classTitle">Title <span>Dummy <span>Inside Span</span></span></h1>  
+    <p>asdads <span>sadasd</span></p>
+
+    <div class="myDiv">
+      <p>Text</p>
+      <h3>Title</h3>
+    </div>
+
+    <div class="myDiv2">
+      <p>Div2</p>
+    </div>
+
+    <div class="myDiv2">
+      <p>Div2</p>
+    </div>
+
+
+    <h1 class="colorRGB">Color RGB</h1>
+    <h1 class="colorRGBA">Color RGB</h1>
+    <h1 class="colorHEX">Color RGB</h1>
+  </body>
+</html>
