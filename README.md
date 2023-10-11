@@ -2,4 +2,4 @@
 
 First Group Brunch - (https://github.com/KaloyanMarinov/PMG-11d/tree/first-group)
 
-Secound Group Brunch - (https://github.com/KaloyanMarinov/PMG-11d/tree/second-group)
+Second Group Brunch - (https://github.com/KaloyanMarinov/PMG-11d/tree/second-group)
