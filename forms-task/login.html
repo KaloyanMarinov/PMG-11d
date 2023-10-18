@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+  </head>
+  <body>
+    <h1>Login Form</h1>
+
+    <p>Create new account? <a href="register.html">Register</a></p>
+    <p>Lost password? <a href="passord.html">Create password</a></p>
+
+    <p>All fields marked with * are required.</p>
+
+    <form action="" method="post">
+      <table>
+        <tbody>
+          <tr>
+            <th align="left"><p>Username *</p></th>
+            <td>
+              <input type="text" name="username" required>
+            </td>
+          </tr>
+
+          <tr>
+            <th align="left"><p>Password *</p></th>
+            <td>
+              <input type="password" name="password" required>
+            </td>
+          </tr>
+
+          <tr>
+            <td colspan="2">
+              <label>
+                <input type="checkbox" name="remember">
+                Запомни ме
+              </label>
+            </td>
+          </tr>
+
+        </tbody>
+      </table>
+
+      <p><button type="submit">Login</button></p>
+    </form>
+  </body>
+</html>

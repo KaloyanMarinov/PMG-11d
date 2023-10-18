@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservestion</title>
+  </head>
+  <body>
+    <h1>Резервация</h1>
+
+    <p>Всички полета маркирани със * са задължителни.</p>
+
+    <form action="" method="post">
+      <fieldset>
+        <legend>Лична информация</legend>
+
+        <table>
+          <tbody>
+            <tr>
+              <th align="left"><p>Име и фамилия *</p></th>
+              <td>
+                <input type="text" name="first" placeholder="Име" required>
+                <input type="text" name="last" placeholder="Фалимия" required>
+              </td>
+            </tr>
+
+            <tr>
+              <th align="left"><p>Имейл адрес*</p></th>
+              <td>
+                <input type="email" name="email" required>
+              </td>
+            </tr>
+
+            <tr>
+              <th align="left"><p>Телефон *</p></th>
+              <td><input type="number" name="phone" required></td>
+            </tr>
+          </tbody>
+        </table>
+      </fieldset>
+
+      <fieldset>
+        <legend>Данни за резервация</legend>
+
+        <table>
+          <tbody>
+            <tr>
+              <th align="left"><p>Дата *</p></th>
+              <td><input type="date" required></td>
+            </tr>
+
+            <tr>
+              <th align="left"><p>Час *</p></th>
+              <td><input type="time" value="" required></td>
+            </tr>
+
+            <tr>
+              <th align="left"><p>Място № *</p></th>
+              <td>
+                <select name="place">
+                  <option value="" disabled selected>Изберете място</option>
+                  <option value="1">1-ви Етаж</option>
+                  <option value="2">2-ри Етаж</option>
+                  <option value="3">Тераса</option>
+                </select>
+              </td>
+            </tr>
+
+            <tr>
+              <th align="left"><p>Маса № *</p></th>
+              <td>
+                <select name="table">
+                  <option value="" disabled selected>Изберете маса</option>
+                  <option value="1">Маса 1</option>
+                  <option value="2">Маса 2</option>
+                  <option value="3">Маса 3</option>
+                  <option value="4">Маса 4</option>
+                </select>
+              </td>
+            </tr>
+
+            <tr>
+              <th align="left"><p>Брой гости *</p></th>
+              <td>
+                <input type="number" min="2">
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </fieldset>
+
+      <p align="center"><button type="submit">Изпрати</button></p>
+    </form>
+  </body>
+</html>

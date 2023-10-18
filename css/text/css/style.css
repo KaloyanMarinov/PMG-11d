@@ -1,0 +1,37 @@
+.myClass {
+  color: rgb(7, 28, 133);
+  text-align: justify ; /* left, right, center, justify */
+  /* text-decoration-line: underline; 
+  text-decoration-color: red;
+  text-decoration-style: wavy; */
+
+  text-transform: uppercase;
+  line-height: 2;
+  text-indent: 40px;
+  letter-spacing: 2px;
+  word-spacing: 20px;
+  /* white-space: nowrap; */
+  word-break: normal;
+  font-size: 20px;
+}
+
+/* Селектират се всички наследници */
+.myClass a {
+  text-decoration: none;
+}
+
+/* Селектира прекият наследник */
+.myClass > a {
+  color: blue;
+}
+
+.myClass p a {
+  color: red;
+}
+
+.text-break {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden; 
+}
+
