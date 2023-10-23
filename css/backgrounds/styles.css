@@ -1,0 +1,25 @@
+body {
+  height: 100vh;
+  background-color: red;
+  /* background-image: url(./banana.png), url(https://media.istockphoto.com/id/184276818/photo/red-apple.jpg?s=612x612&w=0&k=20&c=NvO-bLsG0DJ_7Ii8SSVoKLurzjmV0Qi4eGfn6nW3l5w=); */
+  /* background-repeat: repeat-x; */
+  /* background-repeat: repeat-y; */
+  background-repeat: no-repeat;
+  /* background-position-x: left;
+  background-position-y: bottom; */
+  background-position: right top;
+  background-position: calc(100% - 50px) 100px, 50px 50px;
+  background-size: 200px 200px;
+
+
+  /* background: `color` `image` `repeat` `position` / `size`; */
+  /* background: red url(./banana.png) no-repeat left 50px / 20px 20px; */
+}
+
+div {
+  width: 300px;
+  height: 300px;
+  color:red;
+  background-color: #41c7d0;
+  background-image: linear-gradient(to bottom, #d16ba5, #b25b9d, #924c95, #70408b, #4b347f, #3e428c, #2a4e98, #005aa1, #0083c3, #00abda, #00d4e9, #5ffbf1);
+}

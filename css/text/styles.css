@@ -1,0 +1,65 @@
+body {
+  font-size: 30px;
+}
+
+.td {
+  text-decoration: line-through;
+  text-decoration: overline;
+  text-decoration: underline;
+  text-decoration-style: dashed;
+  text-decoration-style: dotted;
+  text-decoration-style: wavy;
+  text-decoration-color: aquamarine;
+}
+
+.tt {
+  text-transform: capitalize;
+  text-transform: uppercase;
+  text-transform: lowercase;
+  text-transform: none;
+}
+
+.ti {
+  text-indent: 50px;
+}
+
+.ls {
+  letter-spacing: 5px;
+}
+
+.ws {
+  word-spacing: 20px;
+}
+
+.whitespace {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.line-height {
+  line-height: 2em;
+  word-break: break-all;
+}
+
+.btn-red {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: red;
+}
+
+.btn-blue {
+  color: white;
+  text-decoration: none;
+  background-color: blue;
+}
+
+/* Псевдо-селектор - изпълнява се когато се премине с мишката въгху елемента */
+.btn-red:hover {
+  background-color: rgb(243, 61, 82);
+}
+
+.btn-blue:hover {
+  background-color: rgb(134, 134, 245);
+}

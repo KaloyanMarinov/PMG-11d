@@ -1,0 +1,46 @@
+body {
+  font-size: 30px;
+}
+
+h2 {
+  color: red;
+}
+
+/* Селектира всички наследници на елемента */
+.myDiv h2 {
+  color: blue;
+}
+
+/* Селектира всички преки наследници на елемента */
+.myDiv > h2 {
+  color: green;
+}
+
+/* Селектира точно следващия елемент, ако той е с този селектор */
+.myDiv + p {
+  color:aqua;
+}
+
+/* Селектира всички следващи елементи, ако той са с този селектор */
+/* .myDiv ~ div, */
+.myDiv ~ p {
+  color:aqua;
+}
+
+/* Варинат 1 */
+/* .myDiv2 p {
+  color: gray;
+}
+
+.myDiv2 section p {
+  color:blueviolet;
+} */
+
+/* Вариант 2 */
+.myDiv2 p {
+  color: blueviolet;
+}
+
+.myDiv2 > p {
+  color: gray;
+}
