@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.myClass {
+  width: 100px;
+  height: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  border-width: 10px;
+  border-style: solid;
+  border-color: red;
+  padding: 10px;
+  border: 10px solid red;
+  /* border: width style color; */
+}
+
+.myClassBox {
+  width: 100px;
+  height: 100px;
+  border-width: 10px;
+  border-style: solid;
+  border-color: red;
+  padding: 10px;
+  border: 10px solid red;
+  /* border: width style color; */
+  box-sizing: border-box;
+}
+
+.myClass2 {
+  width: 100px;
+  height: 100px;
+  border: 2px solid blue;
+  border-right-style: dotted;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-radius: 20px;
+}
+
+.circle {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  border-radius: 50px;
+}
+
+.myClass3 {
+  width: 100px;
+  height: 50px;
+  background-color: red;
+  border-radius: 50%;
+}
+
+.formElemnt {
+  padding: 20px;
+}
+
+.formElemnt input {
+  width: 200px;
+  height: 40px;
+  color: red;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: 2px solid blue;
+  border-radius: 4px;
+}
+
+.formElemnt input::placeholder {
+  color: blue;
+}
+
+.formElemnt input:focus {
+  outline: none;
+  color: blue;
+  border-color: red;
+  background-color: blue;
+}
+
+.formElemnt input:focus::placeholder {
+  color: white;
+}
