@@ -1,0 +1,43 @@
+.border {
+  width: 100px;
+  height: 50px;
+  background-color: aquamarine;
+  /* border: 2px solid;
+  border-width: 5px;
+  border-style: groove;
+  border-color: #f0f;
+
+  border-top-color: #f00;
+  border-left-color: blue;
+  border-right-color: green;
+  border-bottom-color: yellow;
+
+  border-top-style: dashed;
+  border-left-style: dotted;
+  border-right-style:groove;
+  border-bottom-style:ridge; */
+
+  border-left: 1px solid red;
+  /* border-radius: 20px 30px; */
+  border-top-left-radius: 10px;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 25px;
+
+  /* border-radius: 50%; */
+  border-radius: 100px;
+}
+/* border: with type color */
+
+/* - 
+  with - 2px, 2em 
+  type - solid, dotted, dashed
+  color - #fff
+*/
+
+/* 
+  raduis  values
+
+  border-radius: 10px; - за 4 ъгъла
+  border-radius: 20px 30px; - 1-ва ст-ст е за горе-ляво и долу дясно; 2-та за горе-дясно и долу-ляво
+*/
