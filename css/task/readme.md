@@ -3,6 +3,8 @@
 
 Чрез използване на HTMl и CSS да се стилизира формата от файла index.html, като се изполва изгледа от фила form.png намиращ се в папкта. Да се изповалме външен css файл.
 
+Ресурси: https://github.com/KaloyanMarinov/PMG-11d/blob/first-group/css/task/task.zip
+
 Задача 1. Офопление на страницата:
 
 - Фон - #f5f5f5.
