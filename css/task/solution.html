@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Task</title>
+  </head>
+  <body>
+    <div class="wrap">
+      <h2>Register Form</h2>
+
+      <p>All fields marked with (<span class="required">*</span>) are required</p>
+
+      <form action="">
+        <div class="form-row">
+          <label for="">Username <span class="required">*</span></label>
+          <input type="text" name="username" class="field field--user" value="Ivan...">
+        </div>
+
+        <div class="form-row">
+          <label for="">Email <span class="required">*</span></label>
+          <input type="email" name="email" class="field field--email">
+        </div>
+
+        <div class="form-row">
+          <label for="">Password <span class="required">*</span></label>
+          <input type="password" name="password" class="field field--lock">
+        </div>
+
+        <div class="form-row">
+          <label for="">Confirm Password <span class="required">*</span></label>
+          <input type="password" name="confirm-password" class="field field--lock">
+        </div>
+
+        <button type="submit" class="btn">Register Now</button>
+      </form>
+    </div>
+  </body>
+</html>
