@@ -3,33 +3,46 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
     <title>Task</title>
   </head>
   <body>
-    <div>
+    <div class="container">
       <h2>Register Form</h2>
 
-      <p>All fields marked with (*) are required</p>
+      <p class="info">All fields marked with (<span class="req">*</span>) are required</p>
 
       <form action="">
         <div class="form-row">
-          <label for="">Username *</label>
-          <input type="text" name="username" value="Ivan...">
+          <label for="">Username <span class="req">*</span></label>
+          <input type="text" name="username" value="" class="input user" required>
         </div>
 
         <div class="form-row">
-          <label for="">Email *</label>
-          <input type="email" name="email">
+          <label for="">Email <span class="req">*</span></label>
+          <input type="email" name="email" class="input email" value="" required>
         </div>
 
         <div class="form-row">
-          <label for="">Password *</label>
-          <input type="password" name="password">
+          <label for="">Password <span class="req">*</span></label>
+          <input type="password" name="password" class="input lock" value="" required>
         </div>
 
         <div class="form-row">
-          <label for="">Confirm Password *</label>
-          <input type="password" name="confirm-password">
+          <label for="">Confirm Password <span class="req"></span>*</label>
+          <input type="password" name="confirm-password" class="input lock" value="" required>
+        </div>
+
+        <div class="form-row">
+          <label for="">City <span class="req"></span>*</label>
+          <select name="" id="" class="input select" required>
+            <option value="" selected>Select city</option>
+            <option value="1">Sofia</option>
+            <option value="1">Veliko Tarnovo</option>
+          </select>
         </div>
 
         <button type="submit">Register Now</button>

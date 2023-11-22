@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f5f5f5;
+  font-family: 'Poppins', sans-serif;
+  line-height: 32px;
+}
+
+.container {
+  width: 680px;
+  margin: 30px auto;
+  padding: 30px;
+  border-radius: 16px;
+  background-color: #98ffdc;
+}
+
+h2 {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.input {
+  display: block;
+  padding-left: 40px;
+  padding-right: 15px;
+  width: 100%;
+  height: 50px;
+  border: 1px solid #000000;
+  border-radius: 14px;
+  font-size: 16px;
+  appearance: none;
+  background-repeat: no-repeat;
+}
+
+.input:focus {
+  color: #fff;
+  background-color: red;
+  outline: none;
+  border-color: #fff;
+}
+
+input:valid {
+  color: #fff;
+  background-color: green;
+}
+
+.user {
+  background-image: url('./user.png');
+  background-position: 10px center; 
+}
+
+.email {
+  background-image: url('./email.png');
+  background-position: 10px center;
+}
+
+.lock {
+  background-image: url('./lock.png');
+  background-position: 10px center;
+}
+
+.select {
+  background-image: url('./pin.png'), url('./arrow.png');
+  background-position: 10px center, calc(100% - 10px) center;
+}
+
+.req {
+  color: red;
+}
+
+.info {
+  margin-bottom: 30px;
+}
+
+.form-row {
+  margin-bottom: 20px;
+}
+
+button {
+  display: block;
+  width: 260px;
+  height: 50px;
+  margin: 50px auto 0;
+  border-radius: 14px;
+  font-size: 18px;
+  color: #ffffff;
+  font-weight: bold;
+  background-color: #4385f5;
+  border: none;
+}
+
+button:hover {
+  background-color: #ea4336;
+}
