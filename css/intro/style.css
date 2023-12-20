@@ -1,0 +1,19 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.intro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  min-height: 100vh;
+  background: url(./bg.png) no-repeat center;
+  background-size: cover;
+  text-align: center;
+}
