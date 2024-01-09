@@ -29,13 +29,13 @@
 
 - **Logo & Branding Design**
 - Our designers will create a unique look that will make you unique and recognizable.
-<br>
+<br />
 - **Unique Theme Design**
 - Beautiful and aesthetic web design of  casino theme. Amazing user experience and convenient and intuitive user interface.
-<br>
+<br />
 - **Social Media Banners**
 - Comprehensive branding of social profile. Covers, logos, banner ads, news images, infographics.
-<br>
+<br />
 - **Affiliate Casino Themes**
 - Building and maintaining complete solutions for affiliate casino themes. Everything you need for a successful casino site.
 
