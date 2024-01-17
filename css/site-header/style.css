@@ -22,7 +22,7 @@ body {
 }
 
 .container {
-  width: 800px;
+  max-width: 800px;
   margin-right: auto;
   margin-left: auto;
 }
@@ -112,4 +112,50 @@ body {
   color: #23219b;
   background-color: #fff;;
   border-radius: 0;
+}
+
+.btn-menu {
+  float: right;
+  width: 30px;
+  height: 30px;
+  border: 0;
+  background-color: transparent;
+}
+
+@media screen and (min-width: 651px) {
+  
+    .btn-menu {
+      display: none;
+    }
+}
+
+@media screen and (max-width: 650px) {
+
+    .header {
+      position: relative;
+    }
+  
+    .menu {
+      float: none;
+      display: none;
+    }
+
+    .menu > li {
+      display: block;
+    }
+
+    .menu > li:not(:last-child) {
+      margin-right: 0;
+    }
+
+    .submenu {
+      position: static;
+    }
+
+    .open-menu .menu {
+      display: block;
+      position: absolute;
+      top: 100%;
+      left: 0;
+    }
 }
