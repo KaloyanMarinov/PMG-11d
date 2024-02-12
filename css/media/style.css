@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --color-1: #D04848;
+  --color-2: #F3B95F;
+  --color-3: #FDE767;
+  --color-4: #6895D2;
+  --text-color: black;
+  --heading-color: #333;
+  --font-family: Arial, sans-serif;
+  --heading-family: var(--font-family);
+  --h1-font-size: 50px;
+  --h2-font-size: 40px;
+  --h3-font-size: 30px;
+  --h4-font-size: 26px;
+  --h5-font-size: 24px;
+  --h6-font-size: 20px;
+  --font-size: 26px;
+  --font-size-lg: 18px;
+  --font-size-sm: 14px;
+  --container-lg: 1200px;
+  --container-sm: 960px;
+  --container-xs: 740px;
+}
+
+body {
+  color: var(--text-color);
+  font-size: var(--font-size);
+  font-family: var(--font-family);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--heading-color);
+  font-family: var(--heading-family);
+}
+
+h1 { font-size: var(--h1-font-size); }
+h2 { font-size: var(--h2-font-size); }
+h3 { font-size: var(--h3-font-size); }
+h4 { font-size: var(--h4-font-size); }
+h5 { font-size: var(--h5-font-size); }
+h6 { font-size: var(--h6-font-size); }
+
+.tc-1 { color: var(--color-1); }
+.tc-2 { color: var(--color-2); }
+.tc-3 { color: var(--color-3); }
+.tc-4 { color: var(--color-4); }
+
+.container {
+  font-size: calc(var(--font-size) / 2);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (min-width: 1280px) {
+  .container {
+    max-width: var(--container-lg);
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1279px) {
+  .container {
+    max-width: var(--container-sm);
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .container {
+    max-width: var(--container-xs);
+  }
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media print {
+  * {
+    color: black;
+    background-color: white;
+  }
+
+  .col {
+    flex: 0 0 50%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .col {
+    flex: 0 0 calc(100% / 3);
+  }  
+}
+
+
+@media screen and (min-width: 750px) and (max-width: 1199.98px) {
+  .col {
+    flex: 0 0 50%;
+  }
+}
+
+@media screen and (max-width: 749.98px) {
+  .col {
+    flex: 0 0 100%;
+  }
+}
