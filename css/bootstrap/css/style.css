@@ -1,0 +1,11 @@
+:root {
+  --bs-heading-color: blue;
+  --bs-primary-rgb: 172, 63, 38;
+  --bs-primary: rgb(172, 63, 38);
+  --bs-blue: rgb(172, 63, 38);
+}
+
+img {
+  display: inline-block;
+  max-width: 100%;
+}
