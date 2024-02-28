@@ -1,0 +1,17 @@
+:root {
+  --bs-font-sans-serif: Times New Roman;
+  --bs-body-color: red;
+  --bs-body-font-size: 20px;
+  --bs-primary: red;
+  --bs-primary: 255, 0, 0;
+}
+
+.row {
+  --bs-gutter-x: 20px;
+}
+
+@media (min-width: 992px) {
+  .row {
+    --bs-gutter-x: 40px;
+  }
+}
